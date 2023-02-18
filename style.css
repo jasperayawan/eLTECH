@@ -67,6 +67,9 @@ h3{
 h1{
     color: #0C1C44;
 }
+.image img{
+    width: 350px;
+}
 .prof-left{
     border-top-right-radius: 30%;
     border-top-left-radius: 30%;
@@ -120,6 +123,7 @@ h1{
 .left-image img{
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+    width: 400px;
 }
 .product-details{
     padding: 10px;
@@ -290,4 +294,31 @@ form input{
     display: flex;
     justify-content: flex-end;
     margin: 1rem 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    .left-image img{
+        width: 320px;
+    }    
+    .image img{
+        width: 300px;
+    }
+    .wordings{
+        position: absolute;
+        top: 65%;
+        right: 7%;
+        background-color: #F3F3F3;
+        padding: 5px 1rem;
+        line-height: .5rem;
+    }
+    .righ-h h1{
+        font-size: 30px;
+    }
+    .circle2{
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+    }
+    
 }
