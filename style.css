@@ -329,3 +329,70 @@ form input{
     }
     
 }
+
+
+/* .cookie-message{
+    width: 100%;
+    background-color: #0FB7A6;
+    color: white;
+    height: 100px;
+} */
+
+.js_form{
+    position: relative;
+}
+.pop-up-message{                                                            
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    border-radius: 5px;
+    background-color: #94A3B8;
+    color: white;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px 1px #101010;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.btn--close-cookie{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 14px;
+}
+.js-p{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.buttons button{
+    font-size: 13px;
+    padding: 2px .3rem;
+    border: none;
+}
+.facebook{
+    background-color: rgb(23, 159, 212);
+    color: white;
+}
+.gmail{
+    background-color: rgb(228, 74, 74);
+    color: #fff;
+}
+.instagram{
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+}
+.btn-loginn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-loginn button{
+    border: none;
+}
