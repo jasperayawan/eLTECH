@@ -361,7 +361,27 @@ footer{
         background: #fff;
         z-index: 10;
     }
-    
+    .login-form{
+        width: 100%;
+    }
+    .login-form h3{
+        text-align: center;
+    }
+    .login-form input{
+        margin: 1rem 0;
+    }
+    .form-body{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        padding-bottom: 2rem;
+    }
+    .form-body{
+        min-height: 90vh;
+    }
     
 }
 
