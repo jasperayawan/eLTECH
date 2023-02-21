@@ -286,14 +286,14 @@ footer{
     justify-content: center;
     align-items: center;
 }
-form{
+.js_form{
     max-width: 300px;
     margin: 0 auto;
 }
-form h3{
+.js_form h3{
     text-align: center;
 }
-form input{
+.js_form input{
     margin: 1rem 0;
 }
 .forget-pass{
@@ -301,6 +301,27 @@ form input{
     display: flex;
     justify-content: flex-end;
     margin: 1rem 0;
+}
+.login-form{
+    width: 40%;
+    margin: 0 auto;
+}
+.login-form h3{
+    text-align: center;
+}
+.login-form input{
+    margin: 1rem 0;
+}
+
+
+
+
+
+.signup_form input{
+    margin: 1rem 0;
+}
+.signup_form h3{
+    text-align: center;
 }
 
 
@@ -330,6 +351,36 @@ form input{
     .search-top{
         margin-top: 1rem;
         width: 100%;
+    }
+    .checkout{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: .7rem;
+        background: #fff;
+        z-index: 10;
+    }
+    .login-form{
+        width: 100%;
+    }
+    .login-form h3{
+        text-align: center;
+    }
+    .login-form input{
+        margin: 1rem 0;
+    }
+    .form-body{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        padding-bottom: 2rem;
+    }
+    .form-body{
+        min-height: 90vh;
     }
     
 }

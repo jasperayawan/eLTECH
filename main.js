@@ -1,4 +1,4 @@
-const header = document.querySelector('.header');
+const headerNav = document.querySelector('.headers');
 const popUpMessage = document.createElement('div');
 popUpMessage.classList.add('pop-up-message');
 popUpMessage.innerHTML = `<div class="div-child"><form class="js_form">
@@ -27,7 +27,7 @@ popUpMessage.innerHTML = `<div class="div-child"><form class="js_form">
 popUpMessage.style.display = "flex";
 popUpMessage.style.justifyContent = "center";
 popUpMessage.style.alignItems = "center";
-header.append(popUpMessage);
+headerNav.append(popUpMessage);
 
 document.querySelector('.btn--close-cookie').addEventListener('click', function(){
     // popUpMessage.parentElement.removeChild(popUpMessage)
