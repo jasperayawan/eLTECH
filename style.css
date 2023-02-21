@@ -9,6 +9,7 @@
 
 :root{
     --background-color: #0FB7A6;
+    --secondBackground-color: #0a1531;
 }
 
 .about{
@@ -382,6 +383,9 @@ footer{
     .form-body{
         min-height: 90vh;
     }
+    .input__search__learning{
+        width: 200px;
+    }
     
 }
 
@@ -528,3 +532,29 @@ footer{
     padding: 1rem;
     font-size: 13px;
 }
+
+
+/*--------------------------------------learning wepage--------------------------*/
+
+.title-learning{
+    background-color: var(--secondBackground-color);
+}
+.time .minutes{
+    position: absolute;
+    top: 65%;
+    left: 10px;
+    font-size: 13px;
+    padding: 0 5px;
+}
+.list__course__wishlist ul .list-all-course{
+    border-bottom: 4px solid #fff;
+    padding-bottom: 2px;
+}
+.search__buy__course{
+    background: var(--background-color);
+    padding: 8px 10px;
+    color: #fff;
+}
+/* .input__search__learning{
+    width: 300px;
+} */
