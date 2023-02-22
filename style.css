@@ -14,6 +14,9 @@
 .about{
     min-height: 90vh;
 }
+.span__logo{
+    color: var(--background-color);
+}
 .nav-link{
     color: #94A3B8;
     font-size: 14px;
