@@ -391,6 +391,12 @@ footer{
         left: 10px;
         font-size: 11px;
     }
+    .minutes{
+        top: 50%;
+        left: 10px;
+        font-size: 13px;
+        padding: 0 5px;
+    }
     
 }
 
