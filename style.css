@@ -113,6 +113,9 @@ h1{
 .wordings p{
     font-size: 13px;
 }
+.sign-up a{
+    font-size: 15px;
+}
 
 
 
@@ -225,7 +228,7 @@ h1{
     display: block;
 }
 footer{
-    min-height: 50vh;
+    padding-bottom: 2rem;
 }
 .svg{
     width: 40px;
@@ -246,6 +249,14 @@ footer{
 .terms span{
     font-size: 14px;
 }
+
+.img-box{
+    height: 130px;
+}
+.img-box img{
+    height: 100%;
+}
+
 
 
 
@@ -463,6 +474,7 @@ footer{
     font-size: 13px;
     padding: 2px .3rem;
     border: none;
+    cursor: pointer;
 }
 .facebook{
     background-color: rgb(23, 159, 212);
