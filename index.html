@@ -39,11 +39,50 @@
                                 <a href="courses.html" class="nav-link fw-semibold">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a href="cart.html" class="nav-link cart_counter">
+                                <a href="cart.html" class="nav-link cart_counter position-relative">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                                         <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
                                       </svg>
-                                      <span id="total__counter">0</span>
+                                      
+                                      <div class="position-absolute hover-cart">
+                                         <div class="list-cart p-2">
+                                          <div class="row">
+                                                <div class="col-6">
+                                                    <img src="assets/1.png" alt="" class="w-100 h-75">
+                                                </div>
+                                                <div class="col-6 info">
+                                                    <p>Javascript full course</p>
+                                                    <span>₱699</span>
+                                                </div>
+                                          </div>
+                                          <hr>
+                                          <div class="row">
+                                            <div class="col-6">
+                                                <img src="assets/2.jpg" alt="" class="w-100 h-75">
+                                            </div>
+                                            <div class="col-6 info">
+                                                <p>HTML Semantic structure</p>
+                                                <span>₱699</span>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                          <div class="row">
+                                            <div class="col-6">
+                                                <img src="assets/3.jpg" alt="" class="w-100 h-100">
+                                            </div>
+                                            <div class="col-6 info">
+                                                <p>React.js full course</p>
+                                                <span>₱699</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <p class="fw-bold">Total: ₱1,298</p>
+                                            <div class="col">
+                                                <button class="btn w-100">Go to cart</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                      </div>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -99,6 +138,7 @@
                 </div>
             </div>
 
+            <hr>
             <!-------------------------About area--------------->
 
             <div class="about my-5" id="about">
@@ -122,7 +162,7 @@
                 </div>
             </div>
 
-
+            <hr>
             <!-------------------------course area--------------->
 
             <div class="course pb-lg-5">
@@ -248,8 +288,8 @@
                                 <div class="text-white close-btn">&times;</div>
                                 <div class="modal-title fw-bold p-lg-2">Python for beginners</div>
                                 <div class="modal-body">
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam nisi odit corporis molestiae vitae, provident 
-                                        similique dolor? Inventore nostrum iusto illum nisi error ut fuga perspiciatis tempora exercitationem similique vero,
+                                    <p>Welcome to our Python course for Beginners. We'll cover the basics here and link to more depth resources along the way.
+                                        We hope you enjoy the course and walk with the better understanding of the Python programming language.
                                         </p>
                                         <button class="btn">buy now</button>
                                         <button class="btn addToCart">Add to Cart</button>
@@ -267,8 +307,9 @@
                                 <div class="text-white close-btn">&times;</div>
                                 <div class="modal-title fw-bold p-lg-2">Javascript algorithm</div>
                                 <div class="modal-body">
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam nisi odit corporis molestiae vitae, provident 
-                                        similique dolor? Inventore nostrum iusto illum nisi error ut fuga perspiciatis tempora exercitationem similique vero,
+                                    <p>In the Javascript Algorithm and Data structures, you'll learn the funcdamentals of javascript including variables,
+                                        arrays, objects, loops, and functions. Once you have the fundamentals down, you'll apply that knowledge by creating 
+                                        algorithms to manipulate strings, factorialize numbers. and even calculate the orbit of the Interational Space Station.
                                        </p>
                                         <button class="btn">buy now</button>
                                         <button class="btn addToCart">Add to Cart</button>
@@ -282,13 +323,14 @@
                     <div class="modal fade" id="myThirdModal">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
-                                <img src="assets/mern.png" alt="mern stack" class="w-100">
+                                <img src="assets/mern1.jpg" alt="mern stack" class="w-100">
                                 <div class="text-white close-btn">&times;</div>
-                                <div class="modal-title fw-bold p-lg-2">Learn MEARN stack</div>
+                                <div class="modal-title fw-bold p-lg-2">Learn MERN stack</div>
                                 <div class="modal-body">
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam nisi odit corporis molestiae vitae, provident 
-                                        similique dolor? Inventore nostrum iusto illum nisi error ut fuga perspiciatis tempora exercitationem similique vero,
-                                        voluptatibus modi rem magni pariatur aspernatur nobis expedita possimus ab tempore numquam eos mollitia dolorum nemo! 
+                                    <p>MERN stack comprises of 4 technologies such as Mongodb, Express, React, and Node.js in addition is a Javascript stack
+                                        that is used for easier and faster deployment of full-stack web applications. 
+                                        This course you will learn MERN stack development also this course will drive you to your future. Additionally, after you 
+                                        finish the course you'll be able to build any website as much as you can.
                                        </p>
                                     <button class="btn">buy now</button>
                                     <button class="btn addToCart">Add to Cart</button>
@@ -307,9 +349,11 @@
                                     <div class="text-white close-btn">&times;</div>
                                     <div class="modal-title fw-bold p-lg-2">Unreal game development</div>
                                 <div class="modal-body">
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam nisi odit corporis molestiae vitae, provident 
-                                        similique dolor? Inventore nostrum iusto illum nisi error ut fuga perspiciatis tempora exercitationem similique vero,
-                                        </p>
+                                    <p>This Specialization is intended for intermediate
+                                        programmers who want to learn how to program Unreal Engine games using C++. <br><br>
+                                        Each of the courses includes 10-20 exercises designed to teach you small concepts in C++ and Unreal. You'll also develop several larger C++ console applications, all of them designed to teach you important C++ and Unreal Engine concepts. Completing the exercises and the programming
+                                         assignments will let you apply your C++ programming skills to both C++ console apps and to Unreal games.
+                                       </p>
                                         <button class="btn">buy now</button>
                                         <button class="btn addToCart">Add to Cart</button>
                                 </div>
@@ -398,8 +442,8 @@
                             <span>@2023 eLearningTech.net | Allrights reserved.</span>
                         </div>
                         <div class="col-6 terms">
-                            <span><a href="#" class="text-secondary text-decoration-none">Terms of Service</a></span>
-                            <span><a href="#" class="text-secondary text-decoration-none"> | Privacy Policy</a></span>
+                            <span><a href="#" class="text-decoration-none">Terms of Service</a></span>
+                            <span><a href="#" class="text-decoration-none"> | Privacy Policy</a></span>
                         </div>
                     </section>
             </footer>
