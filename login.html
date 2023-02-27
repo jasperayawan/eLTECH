@@ -33,10 +33,10 @@
                         </div>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="about.html" aria-current="page" class="nav-link fw-semibold">About</a>
+                                <a href="about.html" aria-current="page" class="nav-link">About</a>
                             </li>
                             <li class="nav-item">
-                                <a href="courses.html" class="nav-link fw-semibold">Courses</a>
+                                <a href="courses.html" class="nav-link">Courses</a>
                             </li>
                             <li class="nav-item">
                                 <a href="cart.html" class="nav-link cart_counter">
@@ -47,39 +47,45 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="learning.html" class="nav-link fw-semibold">Learning</a>
+                                <a href="learning.html" class="nav-link">Learning</a>
                             </li>
                         </ul>
-                    <div class="login-button">
-                        <a href="login.html" class="text-decoration-none btn text-white">Login</a>
-                        <a href="signup.html" class="text-decoration-none btn sign_up_btn">Sign up</a>
-                    </div>
+                        <div class="login-button">
+                            <a href="login.html" class="text-decoration-none text-white">
+                                <button class="btn">Login</button>
+                            </a>
+                            <a href="signup.html" class="text-decoration-none sign_up_btn">
+                                <button class="btn">Sign up</button>
+                            </a>
+                        </div>
                 </div>
             </div>
         </nav>
     </header>
 
 
-    <div class="form-body">
-            <form action="/" class="login-form needs-validation p-4" novalidate>
-                <h3>Login</h3>
-                <div>
-                    <input type="email" id="email" name="email" class="form-control" placeholder="Email address" required>
-                    <div class="invalid-feedback">
-                        Please enter your email
+    <div class="form-body container-fluid">
+        <form action="/" class="login-form needs-validation" novalidate>
+            <div class="bg-light rounded-3 p-3">
+                    <h3>Login</h3>
+                    <div class="inputs">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email address" required>
+                        <div class="invalid-feedback">
+                            Please enter your email
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
-                    <div class="invalid-feedback">
-                        Please enter your password
+                    <div class="inputs">
+                        <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+                        <div class="invalid-feedback">
+                            Please enter your password
+                        </div>
                     </div>
-                </div>
                 <input type="checkbox">
                 <label for="checkbox">Remember me</label>
                 <div class="btn d-block">Login</div>
                 <a href="#" class="forget-pass">Forget Password?</a>
-            </form>
+            </div>
+        </form>
     </div>
     <div class="footer pt-lg-5 pt-3 mt-4">
         <footer class="w-100 container">
@@ -87,7 +93,7 @@
             <section class="col-lg-4">
                 <div class="col-lg-6 flex-column">
                     <div class="logo">
-                        <h2 class="text-center text-lg-start">E-LTech</h2>
+                        <h3 class="text-center text-lg-start">E-LTech</h3>
                     </div>
                     <p class="text-center text-sm-start">One Step Closer to Your Dreams</p>
                 </div>

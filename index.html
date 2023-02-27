@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="sticky-top w-100 headers" id="header">
+    <header class="sticky-top w-100 header" id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light flex-wrap shadow py-3 px-lg-5 ">
             <div class="container-fluid w-100">
                     <div class="logo"><a href="#home" class="fw-bold fs-4 text-decoration-none text-dark"><span class="span__logo">E</span>-LTech</a></div>
@@ -33,10 +33,10 @@
                         </div>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="about.html" aria-current="page" class="nav-link fw-semibold">About</a>
+                                <a href="about.html" aria-current="page" class="nav-link">About</a>
                             </li>
                             <li class="nav-item">
-                                <a href="courses.html" class="nav-link fw-semibold">Courses</a>
+                                <a href="courses.html" class="nav-link">Courses</a>
                             </li>
                             <li class="nav-item">
                                 <a href="cart.html" class="nav-link cart_counter position-relative">
@@ -86,12 +86,16 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="learning.html" class="nav-link fw-semibold">Learning</a>
+                                <a href="learning.html" class="nav-link">Learning</a>
                             </li>
                         </ul>
                     <div class="login-button">
-                        <a href="login.html" class="text-decoration-none btn text-white">Login</a>
-                        <a href="signup.html" class="text-decoration-none btn sign_up_btn">Sign up</a>
+                        <a href="login.html" class="text-decoration-none text-white">
+                            <button class="btn">Login</button>
+                        </a>
+                        <a href="signup.html" class="text-decoration-none sign_up_btn">
+                            <button class="btn">Sign up</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -106,16 +110,16 @@
     <!-------------------------Main area--------------->
 
     <main>
-        <section class="container px-lg-5">
-            <div class="home min-vh-100 d-flex justify-content-center align-items-center" id="home">
+        <section class="">
+            <div class="container px-lg-5 home min-vh-100 d-flex justify-content-center align-items-center" id="home">
                 <div class="d-flex flex-column-reverse mb-4 flex-lg-row row">
                     <div class="col d-flex justify-content-center align-items-center">
                         <div class="col righ-h">
                             <h1 class="text-center text-md-start"><span class="learn">Learn</span> and be effecient.📚</h1>
                             <p class="text-center text-md-start">Anywhere, Anytime, Start Learning today!</p>
                             <p class="text-center text-md-start">-Sign up now to fulfill your desired course</p>
-                            <div class="d-flex justify-content-center align-items-center justify-content-md-start">
-                                <button class="btn sign-up btn-outline-none btn-info px-2 text-white"><a href="signup.html" class="text-decoration-none text-white">Sign up now!</a></button>
+                            <div class="d-flex justify-content-center align-items-center justify-content-md-start sign-up-now">
+                                <button class="btn sign-up btn-outline-none btn-info text-white"><a href="signup.html" class="text-decoration-none text-white">Sign up now!</a></button>
                             </div>
                         </div>
                     </div>
@@ -141,7 +145,7 @@
             <hr>
             <!-------------------------About area--------------->
 
-            <div class="about my-5" id="about">
+            <div class="container px-lg-5 about my-5" id="about">
                 <div class="about-title">
                     <h1 class="text-center">About</h1>
                 </div>
@@ -160,12 +164,13 @@
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <hr>
             <!-------------------------course area--------------->
 
-            <div class="course pb-lg-5">
+            <div class="container px-lg-5 course pb-lg-5">
                 <div class="row">
                     <div class="col-md-8">
                             <div class="course-title">
@@ -177,12 +182,12 @@
                 </div>
                 <div class="row">
                     <!-- courses -->
-                    <div class="col-md-6 col-lg-3" data-bs-toggle="modal" data-bs-target="#myFirstModal">
+                    <div class="col-md-6 col-lg-3 rounded-2" data-bs-toggle="modal" data-bs-target="#myFirstModal">
                         <div class="position-relative mb-3 caard">
                             <div class="text-dark">
                                 <div class="courses-item-innner">
                                     <div class="img-boxs">
-                                        <img src="assets/python.jpg" alt="python" class="w-100 courses-item">
+                                        <img src="assets/python.jpg" alt="python" class="w-100 courses-item rounded-top-2">
                                     </div>
                                     <div class="product-details">
                                         <h3 class="title">Python for beginners</h3>
@@ -203,12 +208,12 @@
                     </div>
                     
                     
-                    <div class="col-md-6 col-lg-3" data-bs-toggle="modal" data-bs-target="#mySecondModal">
+                    <div class="col-md-6 col-lg-3 rounded-2" data-bs-toggle="modal" data-bs-target="#mySecondModal">
                         <div class=" position-relative mb-3 caard">
                             <div class="text-dark">
                                 <div class="courses-item-innner">
                                     <div class="img-boxs">
-                                        <img src="assets/javascript-meta-1652702081069.jpg" alt="javascript" class="w-100 courses-item">
+                                        <img src="assets/javascript-meta-1652702081069.jpg" alt="javascript" class="w-100 courses-item rounded-top-2">
                                     </div>
                                     <div class="product-details">
                                         <h3 class="title">Javascript algorithm</h3>
@@ -228,12 +233,12 @@
                         </div>
                     </div>
                     
-                    <div class="col-md-6 col-lg-3" data-bs-toggle="modal" data-bs-target="#myThirdModal">
+                    <div class="col-md-6 col-lg-3 rounded-2" data-bs-toggle="modal" data-bs-target="#myThirdModal">
                         <div class=" position-relative mb-3 caard">
                             <div class="text-dark">
                                 <div class="courses-item-innner">
                                     <div class="img-boxs">
-                                        <img src="assets/mern1.jpg" alt="MERN stack" class="w-100 courses-item">
+                                        <img src="assets/mern1.jpg" alt="MERN stack" class="w-100 courses-item rounded-top-2">
                                     </div>
                                     <div class="product-details">
                                         <h3 class="title">Learn MERN stack</h3>
@@ -254,12 +259,12 @@
                     </div>
 
 
-                    <div class="col-md-6 col-lg-3" data-bs-toggle="modal" data-bs-target="#myFourthModal">
+                    <div class="col-md-6 col-lg-3 rounded-2" data-bs-toggle="modal" data-bs-target="#myFourthModal">
                         <div class=" position-relative mb-3 caard">
                             <div class="text-dark">
                                 <div class="courses-item-innner">
                                     <div class="img-boxs">
-                                        <img src="assets/unreal-blog2.png" alt="Unreal" class="w-100 courses-item">
+                                        <img src="assets/unreal-blog2.png" alt="Unreal" class="w-100 courses-item rounded-top-2">
                                     </div>
                                     <div class="product-details">
                                         <h3 class="title">Unreal game development</h3>
@@ -283,7 +288,7 @@
 
                     <div class="modal fade" id="myFirstModal">
                         <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
+                            <div class="modal-content position-relative">
                                 <img src="assets/python.jpg" alt="Python" class="w-100">
                                 <div class="text-white close-btn">&times;</div>
                                 <div class="modal-title fw-bold p-lg-2">Python for beginners</div>
@@ -294,9 +299,7 @@
                                         <button class="btn">buy now</button>
                                         <button class="btn addToCart">Add to Cart</button>
                                 </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">close</button>
-                                </div>
+                                    <button class="btn-close position-absolute modal-x" data-bs-dismiss="modal"></button>
                             </div>
                         </div>
                     </div>
@@ -314,9 +317,7 @@
                                         <button class="btn">buy now</button>
                                         <button class="btn addToCart">Add to Cart</button>
                                 </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">close</button>
-                                </div>
+                                    <button class="btn-primary btn-close position-absolute modal-x" data-bs-dismiss="modal"></button>
                             </div>
                         </div>
                     </div>
@@ -336,9 +337,7 @@
                                     <button class="btn addToCart">Add to Cart</button>
 
                                 </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">close</button>
-                                </div>
+                                    <button class="btn-close btn-close-white position-absolute modal-x" data-bs-dismiss="modal"></button>
                             </div>
                         </div>
                     </div>
@@ -357,9 +356,7 @@
                                         <button class="btn">buy now</button>
                                         <button class="btn addToCart">Add to Cart</button>
                                 </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">close</button>
-                                </div>
+                                    <button class="btn-primary btn-close-white btn-close position-absolute modal-x" data-bs-dismiss="modal"></button>               
                             </div>
                         </div>
                     </div>
@@ -385,7 +382,7 @@
                 <section class="col-lg-4">
                     <div class="col-lg-6 flex-column">
                         <div class="logo">
-                            <h2 class="text-center text-lg-start">E-LTech</h2>
+                            <h3 class="text-center text-lg-start">E-LTech</h3>
                         </div>
                         <p class="text-center text-sm-start">One Step Closer to Your Dreams</p>
                     </div>

@@ -1,4 +1,4 @@
-const headerNav = document.querySelector('.headers');
+const headerNav = document.querySelector('.header');
 const popUpMessage = document.createElement('div');
 popUpMessage.classList.add('pop-up-message');
 popUpMessage.innerHTML = `<div class="div-child"><form class="js_form">

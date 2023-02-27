@@ -58,6 +58,10 @@ h3{
 .product-details h3{
     font-size: 14px;
 }
+.product-details .price{
+    font-size: 13px;
+    color: var(--background-color);
+}
 .reachOutBtn{
     color:#fff;
     font-size: 13px;
@@ -117,8 +121,21 @@ h1{
 .wordings p{
     font-size: 13px;
 }
-.sign-up a{
+.sign-up{
     font-size: 15px;
+    padding: .7rem 1rem;
+}
+.signup_form input{
+    background: none;
+    border: none;
+    outline: none;
+}
+.signup_btn button{
+    width: 100%;
+    margin-top: 1.2rem;
+}
+.sign-input{
+    border-bottom: 1px solid #000;
 }
 .hover-cart{
     bottom: -395px;
@@ -197,7 +214,9 @@ h1{
     cursor: pointer;
 }
 .caard{
-    background-color: rgb(243, 243, 243);
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+    border-radius: 10px;
 }
 .caard:hover{
     box-shadow: 0 0 10px 1px rgb(207, 206, 206);
@@ -223,7 +242,7 @@ h1{
     content: "";
     width: 20px;
     height: 20px;
-    background-color: #F3F3F3;
+    background-color: #fff;
     position: absolute;
     top: 8px;
     right: -5px;
@@ -234,10 +253,13 @@ h1{
     font-size: 13px;
     padding: 0 1rem;
 }
-.sign_up_btn{
+.sign_up_btn button{
     background: transparent;
     border: 1px solid var(--background-color);
     color: var(--background-color);
+}
+.sign_up_btn button:hover{
+    color: #fff;
 }
 .view-all{
     border: 1px solid var(--background-color);
@@ -289,6 +311,12 @@ footer{
 .modal-body p{
     font-size: 15px;
 }
+.modal-x{
+    top: 5px;
+    right: 5px;
+    color: #fff;
+}
+
 
 
 
@@ -300,7 +328,7 @@ footer{
 
 
 .form-body{
-    margin: 5rem;
+    margin: 5rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,14 +350,20 @@ footer{
     margin: 1rem 0;
 }
 .login-form{
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
+
 }
 .login-form h3{
     text-align: center;
 }
 .login-form input{
     margin: 1rem 0;
+    background: none;
+    border: none;
+}
+.login-form .inputs{
+    border-bottom: 1px solid #000;
 }
 
 
@@ -382,6 +416,7 @@ footer{
     }
     .login-form{
         width: 100%;
+        
     }
     .login-form h3{
         text-align: center;
@@ -391,15 +426,12 @@ footer{
     }
     .form-body{
         margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     footer{
         padding-bottom: 2rem;
     }
     .form-body{
-        min-height: 90vh;
+        min-height: 80vh;
     }
     .input__search__learning{
         width: 200px;
@@ -414,10 +446,10 @@ footer{
         content: "";
         width: 20px;
         height: 20px;
-        background-color: #F3F3F3;
+        background-color: #FFF;
         position: absolute;
         top: 8px;
-        right: -40px;
+        left: 100px;
         rotate: 48deg;
     }
     .hover-cart{
@@ -426,16 +458,16 @@ footer{
     .cart_counter:hover .hover-cart{
         display: none;
     }
+    .signup_btn button{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .sign-up-now button{
+        width: 100%;
+    }
     
 }
 
-
-/* .cookie-message{
-    width: 100%;
-    background-color: #0FB7A6;
-    color: white;
-    height: 100px;
-} */
 
 .js_form{
     position: relative;
@@ -561,6 +593,7 @@ footer{
 .cart__pricing .current__price{
     color: var(--background-color);
     font-weight: 600;
+    
 }
 .total__cart span{
     font-size: 13px;
@@ -580,13 +613,7 @@ footer{
 .title-learning{
     background-color: var(--secondBackground-color);
 }
-.time .minutes{
-    position: absolute;
-    top: 65%;
-    left: 10px;
-    font-size: 13px;
-    padding: 0 5px;
-}
+
 .list__course__wishlist ul .list-all-course{
     border-bottom: 4px solid #fff;
     padding-bottom: 2px;
@@ -599,7 +626,30 @@ footer{
 /* .input__search__learning{
     width: 300px;
 } */
+.learning-box{
+    background-color: var(--text-color);
+}
+.mid-box{
+    background-color: var(--secondBackground-color);
+}
+.mid-box .title{
+    color: var(--text-color);
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-container button{
+    background: none;
+    border: none;
+    font-size: 14px;
+}
+.logo h2{
+    color: #fff;
+}
 
-
-
-
+.form-head img{
+    width: 100%;
+    height: 100%;
+}
