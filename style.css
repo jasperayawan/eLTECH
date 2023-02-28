@@ -16,7 +16,7 @@ body{
     background-color: #fff;
 }
 .about{
-    min-height: 90vh;
+    padding: 2rem 0;
 }
 .span__logo{
     color: var(--background-color);
@@ -647,6 +647,13 @@ footer{
 }
 .logo h2{
     color: #fff;
+}
+.dots{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    background-color: #fff;
 }
 
 .form-head img{
