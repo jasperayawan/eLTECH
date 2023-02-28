@@ -9,7 +9,7 @@
 
 :root{
     --background-color: #0FB7A6;
-    --secondBackground-color: #0a1531;
+    --secondBackground-color: #0F172A;
     --text-color: #CBD5E199;
 }
 body{
@@ -31,6 +31,13 @@ body{
 }
 .login-button a{
     font-size: 14px;
+}
+.chat-container{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    color: var(--background-color);
+    z-index: 10;
 }
 h1{
     font-family: 'Poppins', sans-serif;
@@ -269,14 +276,9 @@ h1{
 .rating span{
     font-size: 13px;
 }
-
-
-.hidden-course{
-    display: none;
-}
-
-.hidden-course.show-more{
-    display: block;
+.show-more{
+    border: 1px solid var(--background-color);
+    color: var(--background-color);
 }
 footer{
     padding-bottom: 2rem;
@@ -611,11 +613,11 @@ footer{
 /*--------------------------------------learning wepage--------------------------*/
 
 .title-learning{
-    background-color: var(--secondBackground-color);
+    background-color: #0F172A;
 }
 
 .list__course__wishlist ul .list-all-course{
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid var(--background-color);
     padding-bottom: 2px;
 }
 .search__buy__course{
