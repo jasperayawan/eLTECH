@@ -110,9 +110,9 @@
     <!-------------------------Main area--------------->
 
     <main>
-        <section class="">
-            <div class="container px-lg-5 home d-flex justify-content-center align-items-center" id="home">
-                <div class="d-flex flex-column-reverse mb-4 flex-lg-row row">
+        <section>
+            <div class="px-lg-5 home d-flex justify-content-center align-items-center" id="home">
+                <div class="container d-flex flex-column-reverse mb-4 flex-lg-row row">
                     <div class="col d-flex justify-content-center align-items-center">
                         <div class="col righ-h">
                             <h1 class="text-center text-md-start"><span class="learn">Learn</span> and be effecient.📚</h1>
@@ -132,6 +132,9 @@
                                 </div>
                                 <div class="circle"></div>
                                 <div class="circle2"></div>
+                                <div class="wording1">
+                                    <h3 class="d-flex m-0">Expert Instructor</h3>
+                                </div>
                                 <div class="wordings rounded">
                                     <h3>eLearning Tech</h3>
                                     <p>Explore now!</p>
@@ -146,7 +149,7 @@
                     <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353V2zM3.5 3h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1z"/>
                   </svg>
             </div>
-            <hr>
+            
             <!-------------------------About area--------------->
 
             <div class="container px-lg-5 about my-5" id="about">
@@ -197,8 +200,63 @@
                     </div>
                 </div>
             </div>
+            
+            <!-------------------------------feedback from clients-------------------->
 
-            <hr>
+            <div class="container py-5 px-lg-5">
+                <div class="client_say_container">
+                    <h2 class="text-center py-3">Our Clients Say</h2>
+                    <div class="row px-4 flex-column d-flex flex-md-row client-card-say gap-4">
+                        <div class="col client">
+                            <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex consequuntur 
+                                vitae tempore nulla, dignissimos tenetur dicta libero distinctio laudantium nobis.</p>
+                            <div class="client-profile">
+                                <img src="assets/jas (2).jpg" alt="profile">
+                                <span>@ejayawan</span>
+                            </div>
+                        </div>
+
+                        <div class="col client">
+                            <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex consequuntur 
+                                vitae tempore nulla, dignissimos tenetur dicta libero distinctio laudantium nobis.</p>
+                            <div class="client-profile">
+                                <img src="assets/jasper.jpg" alt="profile">
+                                <span>@ejayawan</span>
+                            </div>
+                        </div>
+
+                        <div class="col client">
+                            <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex consequuntur 
+                                vitae tempore nulla, dignissimos tenetur dicta libero distinctio laudantium nobis.</p>
+                            <div class="client-profile">
+                                <img src="assets/jasp (2).jpg" alt="profile">
+                                <span>@ejayawan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="instructor-container">
+                <div class="container">
+                    <div class="row d-flex flex-column flex-md-row content-instructor">
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <img src="assets/pple-removebg-preview.png" alt="study" width="400">
+                        </div>
+
+                        <div class="col txt-instructor pt-4 pt-md-0 d-flex justify-content-center align-items-center d-md-flex justify-content-md-start align-items-md-center">
+                            <div class="intructr">
+                                <h2>Do you want to be an <br>
+                                intructor?</h2>
+                                <div class="ins-button">
+                                    <button class="btn button-join-now py-2" data-bs-toggle="modal" data-bs-target="#joinNow">Join now!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <!-------------------------course area--------------->
 
             <div class="container px-lg-5 course pb-lg-5">
@@ -399,6 +457,22 @@
                         </div>
                     </div>
 
+                    <div class="modal fade" id="joinNow">
+                        <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content join-modal-content">
+                                    
+                                <div class="modal-body flex-column">
+                                    <h2 class="text-center">Join now!</h2>
+                                    <div class="input-group">
+                                        <input type="email" id="email" class="form-control" name="email" placeholder="enter your email" required>
+                                        <button class="btn btnSubsribe" onclick="alert('we update you soon!')">Join</button>
+                                    </div>
+                                </div>
+                                    <button class="btn-primary btn-close position-absolute modal-x" data-bs-dismiss="modal"></button>               
+                            </div>
+                        </div>
+                    </div>
+
                     <!------------------------end of the modal----------->
 
                 </div>
@@ -414,7 +488,7 @@
             
         </section>
         
-        <div class="footer bg-light pt-lg-5 pt-3 mt-4">
+        <div class="footer pt-lg-5 pt-3 mt-4">
             <footer class="w-100 container">
                 <div class="row d-flex flex-column flex-lg-row">
                 <section class="col-lg-4">
@@ -422,7 +496,7 @@
                         <div class="logo">
                             <h3 class="text-center text-lg-start">E-LTech</h3>
                         </div>
-                        <p class="text-center text-sm-start text-dark">One Step Closer to Your Dreams</p>
+                        <p class="text-center text-sm-start text-secondary">One Step Closer to Your Dreams</p>
                     </div>
                     <div class="col-lg-6">
                         <h3 class="text-center text-sm-start">Follow us on</h3>
@@ -453,8 +527,8 @@
                     <section class="col-lg-4">
                         <div>
                             <h3 class="text-center text-sm-start">Company Address</h3>
-                            <p class="text-center text-sm-start text-dark">#7033 Pitogo, Pagadian City</p>
-                            <p class="text-center text-sm-start"><i class=" text-dark">help@eLearningTech.com</i></p>
+                            <p class="text-center text-sm-start text-secondary">#7033 Pitogo, Pagadian City</p>
+                            <p class="text-center text-sm-start"><i class=" text-secondary">help@eLearningTech.com</i></p>
                             <!-- <div class="button my-2 my-lg-4 text-center text-sm-start">
                                 <button class="btn reachOutBtn">Reach out</button>
                             </div> -->
@@ -474,11 +548,11 @@
                     </div>
                     <section class="mt-5 footr row">
                         <div class="col-6">
-                            <span>@2023 eLearningTech.net | Allrights reserved.</span>
+                            <span class="text-secondary">@2023 eLearningTech.net | Allrights reserved.</span>
                         </div>
                         <div class="col-6 terms">
-                            <span><a href="#" class="text-decoration-none text-dark">Terms of Service</a></span>
-                            <span><a href="#" class="text-decoration-none text-dark"> | Privacy Policy</a></span>
+                            <span><a href="#" class="text-decoration-none text-secondary">Terms of Service</a></span>
+                            <span><a href="#" class="text-decoration-none text-secondary"> | Privacy Policy</a></span>
                         </div>
                     </section>
             </footer>

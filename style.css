@@ -15,6 +15,7 @@
 body{
     background-color: #fff;
 }
+
 .about{
     padding: 2rem 0;
 }
@@ -64,6 +65,7 @@ h3{
 }
 .home{
     min-height: 90vh;
+    background-color: #e4f8f6;
 }
 .hide{
     display: none;
@@ -130,6 +132,15 @@ h1{
     background-color: #F3F3F3;
     padding: 5px 2rem;
     line-height: .5rem;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
+}
+.wording1{
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    background-color: #F3F3F3;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
 }
 .wordings p{
     font-size: 13px;
@@ -306,14 +317,14 @@ h1{
     padding: 1rem 0;
 }
 .footer{
-    background-color: #fff;
+    background-color: #ecfaf9;
     padding: 2rem 0;
 }
 .footer h2{
     color: #101010;
 }
 .footer h3{
-    color: #101010;
+    color: gray;
 }
 .terms span a{
     color: var(--text-color);
@@ -485,7 +496,22 @@ h1{
     .btn-explore{
         width: 100%;
     }
-
+    .button-join-now{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .wording1{
+        position: absolute;
+        top: 40%;
+        left: -2%;
+        background-color: #F3F3F3;
+        padding: .5rem 1rem;
+        box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
+        
+    }
+    .wording1 h3{
+        font-size: 15px;
+    }
     
 }
 
@@ -629,10 +655,41 @@ h1{
 }
 
 
+/*--------------------------------------Feedback from clients--------------------------*/
+
+.client-profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.instructor-container{
+    background-color: #dcf8f5;
+}
+.client-card-say .client{
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
+    padding: 1.5rem 1.3rem;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.content-instructor{
+    background: #dcf8f5;
+    margin: 2rem 0;
+    padding: 1rem 0 0 0;
+}
+.txt-instructor{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.join-modal-content{
+    background-color: #dcf8f5;
+}
+
+
 /*--------------------------------------learning wepage--------------------------*/
 
 .title-learning{
-    background-color: #101010;
+    background-color: #202020;
 }
 
 .list__course__wishlist ul .list-all-course{
