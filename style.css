@@ -686,6 +686,7 @@ h1{
 }
 .smore{
     font-size: 13px;
+    cursor: pointer;
 }
 
 .form-head img{
