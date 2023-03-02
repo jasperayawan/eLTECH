@@ -684,6 +684,9 @@ h1{
     cursor: pointer;
     background-color: #fff;
 }
+.smore{
+    font-size: 13px;
+}
 
 .form-head img{
     width: 100%;
