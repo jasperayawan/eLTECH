@@ -37,52 +37,14 @@ document.querySelector('.btn--close-cookie').addEventListener('click', function(
 
 
 
-// add to cart 
+const clickBtn = document.querySelector(".svg-chat");
+const chatBox = document.querySelector(".chat-box")
+const chatClose = document.getElementById('close-chat')
 
-// const product = [
-//     {
-//         id: 0,
-//         image: 'assets/python.jpg',
-//         title: 'Python for beginners',
-//         price: 120,
-//     },
-//     {
-//         id: 1,
-//         image: 'assets/javascript-meta-1652702081069.jpg',
-//         title: 'Javascript algorithm',
-//         price: 120,
-//     },
-//     {
-//         id: 2,
-//         image: 'assets/mern.png',
-//         title: 'Learn MERN stack',
-//         price: 120,
-//     },
-//     {
-//         id: 3,
-//         image: 'assets/unreal-blog2.png',
-//         title: 'Unreal game development',
-//         price: 120,
-//     }
-// ];
+clickBtn.addEventListener('click', function(){
+    document.querySelector('.chat-box').style.display = "block"
+})
 
-// const categories  = [...new Set(product.map((item) => {
-//     return item
-// }))]
-
-//     let i = 0;
-//     document.getElementById('root').innerHTML = categories.map((item) => {
-//         var {image, title, price} = item; 
-//         return(
-//             `div class='box'>
-//                 <div class='img-box'>
-//                     <img class='images' src=${image}>
-//                 </div>
-//                 <div class='bottom'>
-//                 <p>${title}<p>
-//                 <h2>php ${price}.00</h2>`+
-//                 "<button class='buttonCart' onclick='addtocart("+(i++)+")'>Add to cart</button>"+
-//                 `</div>
-//                 </div>`
-//         )
-//     }).join('') 
+chatClose.addEventListener('click', function(){
+    document.querySelector('.chat-box').style.display = "none"
+})
