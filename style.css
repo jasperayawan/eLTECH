@@ -14,8 +14,11 @@
 }
 body{
     background-color: #fff;
+    background-image: linear-gradient(to right, #effffd, #ffffff);
 }
-
+nav{
+    background-color: #e4f8f6;;
+}
 .about{
     padding: 2rem 0;
 }
@@ -689,11 +692,11 @@ h1{
 /*--------------------------------------learning wepage--------------------------*/
 
 .title-learning{
-    background-color: #202020;
+    background-color: #0FB7A6;
 }
 
 .list__course__wishlist ul .list-all-course{
-    border-bottom: 4px solid var(--background-color);
+    border-bottom: 4px solid #101010;
     padding-bottom: 2px;
 }
 .search__buy__course{
