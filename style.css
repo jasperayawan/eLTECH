@@ -609,7 +609,8 @@ h1{
 .chat-box{
     width: 350px;
     height: 400px;
-    background-image: linear-gradient(to right, #78e4d9, #c2f8f3);
+    background: #fff;
+    border: 1px solid #0FB7A6;
     overflow: hidden;
     border-radius: 10px;
     position: relative;
